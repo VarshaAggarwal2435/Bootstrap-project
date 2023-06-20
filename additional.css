@@ -1,0 +1,124 @@
+.dropdown-item:hover {
+    background-color: green;
+    color: antiquewhite;
+}
+
+
+/* Image and text div */
+
+.container-fluid {
+    position: relative;
+}
+
+
+/* Title */
+
+.sherl {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    font-style: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: black;
+}
+
+.bio {
+    position: absolute;
+    left: 50%;
+    top: 16%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.quote {
+    position: absolute;
+    font-style: italic;
+    text-align: center;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    font-family: serif;
+    color: white;
+}
+
+
+/* About heading */
+
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* About paragraph */
+
+.about {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+hr {
+    width: 50%;
+    margin-left: 25%;
+    color: solid black;
+}
+
+.quizbtn:hover {
+    background-color: green;
+    color: white;
+}
+
+#footer {
+    position: relative;
+    text-align: center;
+}
+
+.foot {
+    position: absolute;
+    right: 8%;
+    left: 8%;
+}
+
+@media screen and (max-width: 1300px) {
+    h1 {
+        font-size: 25px;
+    }
+    h6 {
+        font-size: 15px;
+    }
+    .quote {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 18px;
+    }
+    h6 {
+        font-size: 10px;
+    }
+    .quote {
+        font-size: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 15px;
+    }
+    h6 {
+        margin-top: 3%;
+        font-size: 10px;
+    }
+    .quote {
+        font-size: 15px;
+    }
+}

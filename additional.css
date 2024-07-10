@@ -1,6 +1,44 @@
+body {
+    background-color: whitesmoke;
+}
+
 .dropdown-item:hover {
     background-color: green;
     color: antiquewhite;
+}
+
+.sh{
+    margin-top: 150px;
+}
+
+
+.card-body {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* 
+.card:hover {
+    opacity: 100%;
+} */
+
+#quizcard{
+    margin-top: 75px;
+    margin-bottom: 30px;
+    box-shadow: 20% black;
+}
+
+.charac {
+    /* background-image: linear-gradient(to left, rgba(255, 255, 255, 0.112), rgb(82, 82, 82)); */
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+#novcard {
+    background-color:  rgba(0, 0, 0, 0.068);
+    margin: 4px;
+}
+
+.card-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
@@ -10,13 +48,19 @@
     position: relative;
 }
 
+.card-img-top {
+    height: auto;
+    width: auto;
+    /* border-radius: 500px; */
+}
+
 
 /* Title */
 
 .sherl {
     position: absolute;
     left: 50%;
-    top: 10%;
+    top:30%;
     transform: translate(-50%, -50%);
     font-style: bold;
     font-style: italic;
@@ -28,7 +72,7 @@
 .bio {
     position: absolute;
     left: 50%;
-    top: 16%;
+    top: 35%;
     transform: translate(-50%, -50%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -39,7 +83,7 @@
     font-style: italic;
     text-align: center;
     left: 50%;
-    top: 80%;
+    top: 93%;
     transform: translate(-50%, -50%);
     font-family: serif;
     color: white;
@@ -61,15 +105,70 @@ h2 {
     text-align: justify;
 }
 
-hr {
+.aboutline {
     width: 50%;
     margin-left: 25%;
     color: solid black;
 }
 
+.shline {
+    width: 50%;
+    margin-left: 10%;
+    color: solid black;
+}
+
+.dwline {
+    width: 50%;
+    margin-left: 40%;
+    color: solid black;
+}
+
+.shimg {
+    float: right;
+    height: 230px;
+    position: relative;
+    margin-top: 50px;
+    width: auto;
+}
+
+.dwimg {
+    float: left;
+    height: 230px;
+    margin-top: 70px;
+    width: auto;
+}
+
+.dwimg {
+    float: left;
+}
+
+.charsh {
+    /* margin-left: 7%; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.chardw {
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .quizbtn:hover {
     background-color: green;
     color: white;
+}
+
+/* .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+} */
+
+.charac:hover, #novcard:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 #footer {

@@ -1,10 +1,10 @@
 let submitted =  document.getElementById("submitQuiz");
 submitted.addEventListener("click", checkAnswers);
 
-correctAnswers = [false, false, false, true, false, false, true, false, false, true, false, false, false, true, 
+const correctAnswers = [false, false, false, true, false, false, true, false, false, true, false, false, false, true, 
     false, false, true, false, false, false];
 
-Answers = [];
+let Answers = [];
 
 function checkAnswers(){
     let count = 0;

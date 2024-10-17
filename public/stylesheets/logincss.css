@@ -1,0 +1,19 @@
+body {
+    font-size: larger;
+    /* background-color: whitesmoke; */
+}
+
+.container {
+    width: 70%;
+    background: linear-gradient(+125deg, #e3edde55, rgb(236, 247, 228) 50%, #ffffff 70%, #f5efef 100%);
+    padding: 5%;
+    margin-top: 100px;
+}
+
+#signIn{
+margin: 2%;
+}
+
+#content{
+    margin-top: 10%;
+}
